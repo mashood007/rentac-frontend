@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  trailingSlash: true,
+  reactStrictMode: false,
+  output: 'standalone',
+  experimental: {
+    esmExternals: false
+  },
+  destination: 'http://localhost:3000/:path*',
 }
 
 module.exports = nextConfig
