@@ -16,4 +16,6 @@ pnpm dev
 - Next Js
 - TypeScript
 - Zustand for state management
+- Bootstrap
 - Usequery, UseMutation ..etc
+- Socket IO

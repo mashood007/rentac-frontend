@@ -17,23 +17,6 @@ interface Values {
   password: string;
 }
 
-// const { mutate: deleteApprovalGroupMutate, isLoading: isDeleteLoading } = useMutation('login', login, {
-//   onSuccess: () => {
-//     // Invalidate and refetch
-//     // queryClient.invalidateQueries({ queryKey: ['todos'] })
-//     // return ""
-//   },
-// })
-
-
-
-// const { mutate: deleteApprovalGroupMutate, isLoading: isDeleteLoading } = useMutation('deleteApprovalGroups', deleteApprovalGroup, {
-//   onSuccess: () => {
-//     toast.success('Approval policy deleted successfully!');
-//     props?.refetchApprovalGroups();
-//   },
-// })
-
 const Signin = () => {
   const router = useRouter()
   const storeAuthToken = useAuthStore((state: any) => state.storeAuthToken)
